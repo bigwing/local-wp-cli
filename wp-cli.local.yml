@@ -1,0 +1,9 @@
+path: app/public
+url: https://<project-url>.local
+user: <user>
+require:
+  - wp-cli/local.php
+  - wp-cli/quiet.php
+apache_modules:
+  - mod_rewrite
+
