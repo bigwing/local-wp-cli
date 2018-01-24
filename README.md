@@ -5,3 +5,8 @@
 1. Open `local.php` and edit the `DB_HOST` ip:port to match the project's settings. Local uses the same IP but assigns a new port for each project.
 1. Move the `wp-cli.local.yml` up one directory into the root of the project. This lets you run `wp` commands directly from that folder, or any other folder inside the project.
 1. Run wp-cli commands from within your active project without having to SSH into the machine first. Try `wp core version --extra` to test.
+
+![Screenshot of Database settings in Local](/local-db-settings.png "Screenshot of Database settings in Local")
+
+## License
+Licensed under MIT. Original idea and code from the [VVV project](https://github.com/Varying-Vagrant-Vagrants/VVV "Varying Vagrant Vagrants Github repo"), modified for Local use by [BigWing](https://bigwing.com).
